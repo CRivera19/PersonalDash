@@ -1,0 +1,36 @@
+<!DOCtype html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Have an idea that you want to turn into a reality?</h1>
+    <h2>Fill out the form below!</h2>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Enter Your Name!<input required id="name" type="text"
+                    placeholder="Enter Your Name"></input></label>
+            <label id="email-label">Enter Your Email!<input required id="email" type="email" pattern="[^ @]*@[^ @]*"
+                    placeholder="Enter Your email"></input></label>
+            <label id="number-label">Enter Your Number<input id="number" inputmode="numeric" type="number" min="0"
+                    max="100" placeholder="Enter Your number"></input></label>
+            <label>Preferred call back time?
+                <select id="dropdown" name="dropdown">
+                    <option value="">(Select One)</option>
+                    <option value="1">Before Lunch</option>
+                    <option value="2">After Lunch</option>
+                </select>
+            </label>
+            <input type="radio" name="1" value="1" checked>IDEA</input>
+            <input type="radio" name="1" value="2">PRODUCT</input>
+            <textarea></textarea>
+            <h3>Preferred contact</h3>
+            <input type="checkbox" name="2" value="3" checked>Text</input>
+            <input type="checkbox" name="2" value="4">Phone</input>
+            <button type="submit" id="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
