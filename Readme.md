@@ -8,7 +8,7 @@ Welcome to my coding journey! This repository serves as a dashboard to track my 
 ### 🎯 Goals
 
 - **Short-Term Goals:**
-  - Complete the freeCodeCamp curriculum.
+  - Complete the codeacademy Front-End Engineer career path.
   - Build a portfolio of 5+ projects.
   - Master HTML, CSS, JavaScript, and React.
 
